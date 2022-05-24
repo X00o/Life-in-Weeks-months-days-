@@ -37,3 +37,23 @@ body{
 #btn:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
+@media only screen and (max-width:953px) {
+    .container{
+        
+        left: 79px;
+    }
+    .container label{
+       
+        font-size: 17px;
+       
+    }
+    #age{
+        font-size: 17px;
+        width: 150px;
+        height: 40px;
+    }
+    #btn{
+        font-size: 17px;
+    height: 40px;
+    }
+}
